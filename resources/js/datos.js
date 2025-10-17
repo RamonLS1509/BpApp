@@ -133,7 +133,7 @@ function renderMarkers(data) {
             });
 
             // --- BOTÓN CÓMO LLEGAR ---
-            const directionsUrl = `http://googleusercontent.com/maps.google.com/maps?daddr=${lat},${lon}`;
+            const directionsUrl = `https://www.google.com/maps/dir/?api=1&destination=${lat},${lon}`;
             const directionsButtonHtml = `
                 <a href="${directionsUrl}" target="_blank" style="
                     display: inline-block; margin-top: 10px; padding: 8px 15px;

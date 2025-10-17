@@ -1,5 +1,5 @@
 {{-- Panel Superior de Controles y Filtros --}}
-<div class="bg-gray-100 p-4 rounded-lg shadow-lg mb-6 flex flex-col md:flex-row md:items-center md:justify-between space-y-4 md:space-y-0">
+<div class="bg-gray-100 p-4 rounded-lg shadow-lg mb-6 flex flex-col md:flex-row md:items-center md:justify-between space-y-4 md:space-y-0 ">
 
     {{-- GRUPO 1: FILTRO PRINCIPAL (PROVINCIA) --}}
     <form action="{{ url('/') }}" method="GET" class="flex space-x-3 items-center w-full md:w-auto flex-shrink-0">

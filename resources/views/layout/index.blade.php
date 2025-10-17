@@ -10,8 +10,8 @@
 <body class="bg-gray-50 min-h-screen">
     @include('components.navbar')
 
-    <main class="py-6">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+    <main class="py-4 sm:py-6"> {{-- Reducido el padding vertical en móvil y escalado en sm --}}
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"> {{-- Añadido px-4 para pantallas muy pequeñas --}}
             @include('components.filter')
             @yield('content')
             @include('components.map')
